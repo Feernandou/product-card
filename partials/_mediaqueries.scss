@@ -1,0 +1,36 @@
+@media screen and (min-width:800px){
+    main{
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        justify-content: center;
+        width: 600px;
+        height: 500px;
+        section{
+            
+            width: 50%;
+            box-sizing: border-box;
+            
+        }
+        .image-container{
+            
+         >img{
+            content: url("./images/image-product-desktop.jpg");
+            height: auto;
+            width: 100%;
+            object-fit: cover;
+         }   
+        
+        }
+        .content{
+            >*{
+                padding-inline: 10px;
+                margin-top: 10px;
+            }
+            .description{
+                font-size: 15px;
+            }
+            
+        }
+    }
+}
